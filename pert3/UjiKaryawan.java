@@ -1,0 +1,24 @@
+class UjiKaryawan {
+    public static void main(String[] args) {
+        // Tampilkan Header
+        System.out.println("=== DATA KARYAWAN TECHMAJU ===");
+
+        // Buat objek Karyawan biasa (Budi)
+        Karyawan Budi = new Karyawan("Budi Saantoso", 4000000);
+        
+        // Tampilkan info Karyawan biasa
+        System.out.println("Status: Karyawan Biasa");
+        Budi.tampilInfo();
+        
+        
+        System.out.println(); // Baris baru/jarak
+
+        // Buat objek Manajer (Siti)
+        Karyawan Siti = new Manajer("Siti Aminah", 6000000, 2500000);
+        
+        // Tampilkan info Manajer
+        System.out.println("Status: Manajer");
+        Siti.tampilInfo();
+        
+    }
+}
